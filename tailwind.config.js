@@ -24,7 +24,7 @@ export default {
 	      "gray": "#f3f3f3",
       },
       backgroundImage: {
-        checked: "url('@/assets/icons/checkbox.svg')",
+        bg: "url('./src/assets/icons/BG.svg')",
       },
       boxShadow: {
         "button-hover":

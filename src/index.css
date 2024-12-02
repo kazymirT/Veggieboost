@@ -28,8 +28,13 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .container {
   @apply w-full max-w-[1280px] m-auto px-5 sm:px-[clamp(20px,8.55px+3.053vw,32px)];
+}
+
+.products {
+  @apply grid grid-cols-[repeat(auto-fill,minmax(335px,1fr))] justify-items-center gap-y-[19px] md:gap-x-5 md:gap-y-[17px] lg:gap-x-6 lg:gap-y-[23px]
 }
