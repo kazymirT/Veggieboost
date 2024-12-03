@@ -22,6 +22,7 @@ export default {
 	      "orange": "#fc8a11",
 	      "beige": "#faf3e7",
 	      "gray": "#f3f3f3",
+        "grey-2": "#c1bdbd",
       },
       backgroundImage: {
         bg: "url('./src/assets/icons/BG.svg')",
