@@ -36,5 +36,5 @@ body {
 }
 
 .products {
-  @apply grid grid-cols-[repeat(auto-fill,minmax(335px,1fr))] justify-items-center gap-y-[19px] md:gap-x-5 md:gap-y-[17px] lg:gap-x-6 lg:gap-y-[23px]
+  @apply grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(335px,1fr))] justify-items-center gap-y-[19px] md:gap-x-5 md:gap-y-[17px] lg:gap-x-6 lg:gap-y-[23px]
 }

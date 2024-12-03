@@ -5,7 +5,7 @@ import oval from '../../../assets/icons/Oval.svg';
 const ProductItem: FC<ProductItemProps> = ({ id, img, price, subTitle, title, height, width }) => {
   const handleAddItemToCart = () => console.log('item id-', id);
   return ( 
-    <div className="group flex flex-col gap-5 md:gap-0 w-full max-w-[389px] min-w-[335px] rounded-[20px] px-5 pt-10 pb-5 md:px-6 md:pb-6 md:pt-16 bg-light-green hover:cursor-pointer" onClick={handleAddItemToCart}>
+    <div className="group flex flex-col gap-5 md:gap-0 w-full max-w-[389px] min-w-[280px] sm:min-w-[335px] rounded-[20px] px-5 pt-10 pb-5 md:px-6 md:pb-6 md:pt-16 bg-light-green hover:cursor-pointer" onClick={handleAddItemToCart}>
       <div className="flex flex-col gap-[9px] md:gap-[7px]">
       <h3 className="text-2xl leading-7 -tracking-[0.04em] md:text-[28px] md:leading-8 md:-tracking-[0.035em] lg:text-[32px] font-bold lg:leading-[38px] lg:tracking-tight">{title}</h3>
       <p className="capitalize text-sm leading-[18px] md:text-lg md:leading-6 md:-tracking-[0.01em]">{subTitle}</p>
